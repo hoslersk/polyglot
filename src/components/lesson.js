@@ -6,7 +6,7 @@ import {Link} from 'react-router';
 
 export default function Lesson(props) {
   return(
-    <div>
+    <div className="lesson-div">
       <h3>Lesson I</h3>
       <p>To start, we'll need to have an understanding of one of the Japanese language's basic written systems. Your first introduction to this will be <em>hiragana</em>.</p>
       <p>While we will go over each one individually, the initial list of <em>hiragana</em> characters we will cover is as follows:</p>

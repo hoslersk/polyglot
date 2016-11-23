@@ -7,7 +7,7 @@ import Lesson from './lesson';
 
 export default function Track(props) {
   return(
-    <div>
+    <div className="track-div">
       <h2>
         Japanese Language Track
       </h2>
