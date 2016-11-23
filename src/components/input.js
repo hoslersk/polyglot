@@ -6,10 +6,6 @@ import {Link} from 'react-router';
 
 export default function Input(props) {
   return(
-    <div className="input-div">
-      <form>
         <input type="textarea" className="kana-textarea"></input>
-      </form>
-    </div>
   )
 }
