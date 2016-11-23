@@ -56,6 +56,15 @@ div.track-div {
   background-color: #90AFC5;
 }
 
+a.track-link {
+  color: #2A3132;
+  text-decoration: none;
+}
+
+a.track-link:hover {
+  color: #763626;
+}
+
 div.lesson-div {
   border: 1px solid #e1e8ed;
   border-radius: 5px;

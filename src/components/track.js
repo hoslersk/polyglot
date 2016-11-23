@@ -9,7 +9,7 @@ export default function Track(props) {
   return(
     <div className="track-div">
       <h2>
-        Language Track: 日本語
+        <a className="track-link" href="#japanese">Language Track: 日本語</a>
       </h2>
       <Lesson />
     </div>
