@@ -7,7 +7,7 @@ body {
 }
 
 div { /* remove once finalized */
-  border: 2px solid #763626;
+  /*border: 2px solid #763626;*/
 }
 
 .col-1 {
@@ -122,7 +122,7 @@ div.lesson-div {
   text-align: center;
   display: block;
   margin: auto;
-  width: 33%;
+  width: 50%;
   position: relative;
 }
 
@@ -155,14 +155,19 @@ div.lesson-div {
   /*text-align: center;*/
   position: relative;
   float: left;
-  clear:both;
-  width: 50%;
+  width: 18%;
+  /*clear: right;*/
+  /*overflow: hidden;*/
 }
 
 .kana-quiz-input {
   font-size: 60px;
   text-align: center;
   position: relative;
+}
+
+.center-btn {
+  text-align: center;
 }
 
 .next-lesson-btn {
@@ -207,4 +212,6 @@ div.lesson-div {
 
 .hiragana {
   font-size: 30px;
+  padding-left: 10%;
+  display: table-cell;
 }

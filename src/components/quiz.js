@@ -13,40 +13,39 @@ export default function Quiz(props) {
         Please write the romanized equivalent of the following <em>hiragana</em> characters (peeking is okay, but try to say them out loud!):
       </div>
       <form className="kana-quiz-form">
-        <div className="inline-block">
-          <div className="kana-quiz-text">
-            <div>
-            「あ」
-            </div>
-              <Input />
-          </div>
-          <div className="kana-quiz-text">
-            <div>
-            「い」
-            </div>
-            <Input />
-          </div>
-        </div>
-
-        {/* <div className="kana-quiz-text inline-block">
-          <div className="block">
-          「う」
+        <div className="kana-quiz-text">
+          <div className="center-align">
+          「あ」
           </div>
           <Input />
         </div>
-        <div className="kana-quiz-text inline-block">
-          <div className="block">
+        <div className="kana-quiz-text">
+          <div className="center-align">
+          「い」
+          </div>
+          <Input />
+        </div>
+        <div className="kana-quiz-text">
+          <div className="center-align">
+          「い」
+          </div>
+          <Input />
+        </div>
+        <div className="kana-quiz-text">
+          <div className="center-align">
           「え」
           </div>
           <Input />
         </div>
-        <div className="kana-quiz-text inline-block">
-          <div className="block">
+        <div className="kana-quiz-text">
+          <div className="center-align">
           「お」
           </div>
           <Input />
-        </div> */}
-        <button type="submit" className="next-lesson-btn center-align"><span>Next Lesson</span></button>
+        </div>
+        <div className="center-btn">
+          <button type="submit" className="next-lesson-btn"><span>Next Lesson</span></button>
+        </div>
       </form>
     </div>
   )
