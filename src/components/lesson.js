@@ -77,8 +77,7 @@ export default function Lesson(props) {
           <td>お</td>
         </tr>
       </table>
-      <p>We'll begin with focusing on the the first 5 <em>hiragana</em> characters from the top right, moving down.</p>
-      <p>(Please note that the use of "hook brackets" (「　」) around each character is the Japanese equivalent of quotation marks.)</p>
+      <p>We'll begin with focusing on the the first 5 <em>hiragana</em> characters from the top right, moving down. (Please note that the use of "hook brackets" (「　」) around each character is the Japanese equivalent of quotation marks.):</p>
       <p>「あ」 is the vowel "a" (pronounced "AH") sound.</p>
       <p>「い」 is the vowel "i" (pronounced "EE") sound.</p>
       <p>「う」 is the vowel "u" (pronounced "OO") sound.</p>

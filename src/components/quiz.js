@@ -9,9 +9,31 @@ export default function Quiz(props) {
   return(
     <div className="quiz-div">
       <div>
-        Please write the romanized equivalent of the following <em>hiragana</em> character: 「あ」
+        <h3>Quiz Time!</h3>
+        Please write the romanized equivalent of the following <em>hiragana</em> characters (peeking is okay, but try to say them out loud!):
       </div>
-      <Input />
+      <table className="kana-quiz-text">
+        <tr>
+          <td>「あ」</td>
+          <td><Input /></td>
+        </tr>
+        <tr>
+          <td>「い」</td>
+          <td><Input /></td>
+        </tr>
+        <tr>
+          <td>「う」</td>
+          <td><Input /></td>
+        </tr>
+        <tr>
+          <td>「え」</td>
+          <td><Input /></td>
+        </tr>
+        <tr>
+          <td>「お」</td>
+          <td><Input /></td>
+        </tr>
+      </table>
     </div>
   )
 }

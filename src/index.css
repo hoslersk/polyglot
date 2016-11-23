@@ -78,4 +78,19 @@ div.lesson-div {
 .center-align {
   text-align: center;
   margin-left: 33%;
+  position: relative;
+}
+
+.kana-textarea { /* not working */
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.kana-quiz-text {
+  font-size: 60px;
+  text-align: center;
+  margin-left: 30%;
+  position: relative;
 }

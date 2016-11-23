@@ -8,7 +8,7 @@ export default function Input(props) {
   return(
     <div className="input-div">
       <form>
-        <input type="textarea"></input>
+        <input type="textarea" className="kana-textarea"></input>
       </form>
     </div>
   )
