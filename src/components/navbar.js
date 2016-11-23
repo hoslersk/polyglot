@@ -3,6 +3,7 @@ import React from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {Link} from 'react-router';
+import Track from './track';
 
 export default class Navbar extends React.Component {
   // constructor(props) {
@@ -10,9 +11,12 @@ export default class Navbar extends React.Component {
   // }
   render(){
     return(
-      <nav>
-       <h2>Welcome to Polyglot | Sign In | Sign Up</h2> 
-      </nav>
+      <div>
+        <nav>
+         <h2>Welcome to Polyglot | Sign In | Sign Up</h2>
+        </nav>
+        <Track />
+      </div>
     )
   }
 }
