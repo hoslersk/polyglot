@@ -54,6 +54,7 @@ div.track-div {
   position: relative;
   margin: 10px;
   background-color: #90AFC5;
+  overflow: auto;
 }
 
 a.track-link {
@@ -73,11 +74,14 @@ div.lesson-div {
   position: relative;
   margin-bottom: 10px;
   background-color: #fff;
+  overflow: auto;
 }
 
 .center-align {
   text-align: center;
-  margin-left: 33%;
+  display: block;
+  margin: auto;
+  width: 33%;
   position: relative;
 }
 
@@ -89,6 +93,12 @@ div.lesson-div {
 }
 
 .kana-quiz-text {
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+}
+
+.kana-quiz-input {
   font-size: 60px;
   text-align: center;
   position: relative;
@@ -131,4 +141,8 @@ div.lesson-div {
 .next-lesson-btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.hiragana {
+  font-size: 30px;
 }
