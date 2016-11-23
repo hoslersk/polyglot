@@ -12,6 +12,7 @@ export default function Track(props) {
         <a className="track-link" href="#japanese">Language Track: 日本語</a>
       </h2>
       <Lesson />
+      {/* {this.props.children} */}
     </div>
   )
 }

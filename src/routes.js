@@ -5,7 +5,11 @@ import App from './components/app';
 
 export default (
   <Route>
-    <Route path="/" component={App} />
+    <Route path="/" component={App} >
+      <Route path="/japanese" component {Track}>
+        <Route path="/lesson/:id" compoinent={Lesson} />
+      </Route>
+    </Route>
   </Route>
 )
 

@@ -23,6 +23,7 @@ export default class Navbar extends React.Component {
           </ul>
         </nav>
         <Track />
+        {/* {this.props.children} */}
       </div>
     )
   }

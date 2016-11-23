@@ -74,3 +74,8 @@ div.lesson-div {
   margin-bottom: 10px;
   background-color: #fff;
 }
+
+.center-align {
+  text-align: center;
+  margin-left: 33%;
+}

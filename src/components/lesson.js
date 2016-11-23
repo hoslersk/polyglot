@@ -3,14 +3,14 @@ import React from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {Link} from 'react-router';
+import Quiz from './quiz';
 
 export default function Lesson(props) {
   return(
     <div className="lesson-div">
       <h3>Lesson I</h3>
-      <p>To start, we'll need to have an understanding of one of the Japanese language's basic written systems. Your first introduction to this will be <em>hiragana</em>.</p>
-      <p>While we will go over each one individually, the initial list of <em>hiragana</em> characters we will cover is as follows:</p>
-      <table>
+      <p>To start, we'll need to have an understanding of one of the Japanese language's basic writing systems. Your first introduction to this will be <em>hiragana</em>. While we will go over each one individually, the initial list of <em>hiragana</em> characters we will cover is as follows:</p>
+      <table className="center-align">
         <tr>
           <td>　</td>
           <td>わ</td>
@@ -77,6 +77,14 @@ export default function Lesson(props) {
           <td>お</td>
         </tr>
       </table>
+      <p>We'll begin with focusing on the the first 5 <em>hiragana</em> characters from the top right, moving down.</p>
+      <p>(Please note that the use of "hook brackets" (「　」) around each character is the Japanese equivalent of quotation marks.)</p>
+      <p>「あ」 is the vowel "a" (pronounced "AH") sound.</p>
+      <p>「い」 is the vowel "i" (pronounced "EE") sound.</p>
+      <p>「う」 is the vowel "u" (pronounced "OO") sound.</p>
+      <p>「え」 is the vowel "e" (pronounced "EH") sound.</p>
+      <p>「お」 is the vowel "o" (pronounced "OH") sound.</p>
+      <Quiz />
     </div>
   )
 }
