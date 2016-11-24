@@ -126,6 +126,12 @@ div.lesson-div {
   position: relative;
 }
 
+.center-kana {
+  text-align: center;
+  width: auto;
+  position: relative;
+}
+
 .inline-block {
   display: inline-block;
   float: left;
@@ -142,32 +148,61 @@ div.lesson-div {
   float: left;
 }
 
-.kana-textarea { /* not working */
-  width: 100px;
-  height: 100px;
-  font-size: 60px;
+.kana-quiz-form {
+  /*display: inline-block;*/
+  /*float: left;*/
   text-align: center;
-  margin-left: 40%;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.kana-quiz-table {
+  text-align: center;
+  width: 50%;
+}
+
+.kana-textarea {
+  width: 150px;
+  height: 150px;
+  font-size: 120px;
+  text-align: center;
 }
 
 .kana-quiz-text {
-  font-size: 60px;
-  /*text-align: center;*/
-  position: relative;
+  font-size: 120px;
+  text-align: center;
   float: left;
-  width: 18%;
-  /*clear: right;*/
-  /*overflow: hidden;*/
+  clear: both;
+}
+
+.full-width {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  display: inline-block;
 }
 
 .kana-quiz-input {
-  font-size: 60px;
+  font-size: 72px;
   text-align: center;
   position: relative;
+  float: left;
+}
+
+.kana-inputs {
+  width: 100%;
+  text-align: center;
+}
+
+.kana-quiz-characters {
+  text-align: center;
+  width: 100%;
 }
 
 .center-btn {
   text-align: center;
+  width: 100%;
+  clear:both;
 }
 
 .next-lesson-btn {
@@ -212,6 +247,5 @@ div.lesson-div {
 
 .hiragana {
   font-size: 30px;
-  padding-left: 10%;
-  display: table-cell;
+  width: 100%;
 }
