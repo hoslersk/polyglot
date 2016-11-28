@@ -228,7 +228,8 @@ div.lesson-div {
 }
 
 .next-lesson-btn span:after {
-  content: '»';
+  /*content: '»';*/
+  content: '→';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -237,7 +238,7 @@ div.lesson-div {
 }
 
 .next-lesson-btn:hover span {
-  padding-right: 25px;
+  padding-right: 40px;
 }
 
 .next-lesson-btn:hover span:after {
