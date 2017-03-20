@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router';
 
 export default function Input(props) {
-  return(
-        <input type="textarea" className="kana-textarea"></input>
-  )
+	return(
+		<input type="textarea" className="kana-textarea"></input>
+	)
 }

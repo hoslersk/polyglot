@@ -1,30 +1,31 @@
-import React from 'react';
-// import * as actions from '../actions/index';
-import {bindActionCreators} from 'redux';
-import {connect} from 'react-redux';
-import {Link} from 'react-router';
-import Track from './track';
+import React, { Component, PropTypes } from 'react'
+import { Link } from 'react-router';
 
-export default class Navbar extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-  render(){
-    return(
-      <div>
-        <nav>
-          <ul>
-            <li><span>Welcome to Polyglot</span></li>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li className="float-right"><a href="/signin">Sign In</a></li>
-            <li className="float-right"><a href="/signup">Sign Up</a></li>
-          </ul>
-        </nav>
-        <Track />
-        {/* {this.props.children} */}
-      </div>
-    )
-  }
+class Navbar extends Component {
+	render() {
+		return(
+			<ul className="navbar">
+				<li className="navtitle">Welcome to Polyglot</li>
+				<li className={`navitem${this.props.tab === 'home' ? 'Active' : ''}`}>
+					<Link to="/" name="home" onClick={this.props.updateTab}>Home</Link>
+				</li>
+				<li className={`navitem${this.props.tab === 'lessons' ? 'Active' : ''}`}>
+					<Link to="/tracks" name="tracks" onClick={this.props.updateTab}>Tracks</Link>
+				</li>
+				<li className={`navitemRight${this.props.tab === 'signup' ? 'Active' : ''}`}>
+					<Link to="/signup" name="signup" onClick={this.props.updateTab}>Sign Up</Link>
+				</li>
+				<li className={`navitemRight${this.props.tab === 'login' ? 'Active' : ''}`}>
+					<Link to="/login" name="login" onClick={this.props.updateTab}>Log In</Link>
+				</li>
+			</ul>
+		)
+	}
 }
+
+Navbar.Proptypes = {
+	updateTab: PropTypes.func,
+	tab: PropTypes.string,
+}
+
+export default Navbar

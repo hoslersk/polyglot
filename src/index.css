@@ -48,15 +48,19 @@ div { /* remove once finalized */
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2A3132;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2A3132;
 }
 
-li {
-    float: left;
+li.navitem, li.navitemActive {
+  float: left;
+}
+
+li.navitemRight, li.navitemRightActive {
+  float: right;
 }
 
 li span {
@@ -67,25 +71,18 @@ li span {
   text-decoration: none;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+li.navtitle a, li.navitemRight a, li.navitemRightActive a, li.navtitle, li.navitem a, li.navitemActive {
+  display: block;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-li a:hover {
-    background-color: #763626;
+li.navitemRight a:hover, li.navitemRightActive a:hover, li.navitem a:hover, li.navitemActive a:hover {
+  background-color: #763626;
 }
-
-li.float-right {
-  float: right;
-}
-
-/*.active {
-    background-color: #4CAF50;
-}*/
 
 div.track-div {
   border: 1px solid #90AFC5;
@@ -238,7 +235,7 @@ div.lesson-div {
 }
 
 .next-lesson-btn:hover span {
-  padding-right: 40px;
+  padding-right: 35px;
 }
 
 .next-lesson-btn:hover span:after {
