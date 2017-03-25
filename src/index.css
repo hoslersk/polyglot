@@ -71,7 +71,7 @@ li span {
   text-decoration: none;
 }
 
-li.navtitle a, li.navitemRight a, li.navitemRightActive a, li.navtitle, li.navitem a, li.navitemActive {
+li.navtitle a, li.navitemRight a, li.navitemRightActive a, li.navtitle, li.navitem a, li.navitemActive a {
   display: block;
   float: left;
   color: white;
@@ -80,7 +80,7 @@ li.navtitle a, li.navitemRight a, li.navitemRightActive a, li.navtitle, li.navit
   text-decoration: none;
 }
 
-li.navitemRight a:hover, li.navitemRightActive a:hover, li.navitem a:hover, li.navitemActive a:hover {
+li.navitemRight a:hover, li.navitemRightActive a, li.navitem a:hover, li.navitemActive {
   background-color: #763626;
 }
 
