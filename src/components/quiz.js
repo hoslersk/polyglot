@@ -1,6 +1,7 @@
-import React from 'react';
-import {Link} from 'react-router';
-import Input from './input';
+import React from 'react'
+
+import Input from './input'
+import NextButton from './NextButton'
 
 export default function Quiz(props) {
   return(
@@ -15,7 +16,6 @@ export default function Quiz(props) {
           <tr>
             <td className="kana-quiz-text">「あ」</td>
             <td><Input /></td>
-            {/* <td className="kana-quiz-text">Correct!</td> */}
           </tr>
           <tr>
             <td className="kana-quiz-text">「い」</td>
@@ -33,41 +33,9 @@ export default function Quiz(props) {
             <td className="kana-quiz-text">「お」</td>
             <td><Input /></td>
           </tr>
-          {/* <div className="kana-quiz-text">
-            「あ」
-          </div>
-          <div className="kana-quiz-input">
-            <Input />
-          </div>
-          <div className="kana-quiz-text">
-            「い」
-          </div>
-          <div className="kana-quiz-input">
-            <Input />
-          </div>
-          <div className="kana-quiz-text">
-            「う」
-          </div>
-          <div className="kana-quiz-input">
-            <Input />
-          </div>
-          <div className="kana-quiz-text">
-            「え」
-          </div>
-          <div className="kana-quiz-input">
-            <Input />
-          </div>
-          <div className="kana-quiz-text">
-            「お」
-          </div>
-          <div className="kana-quiz-input">
-            <Input />
-          </div> */}
         </table>
         </div>
-        <div className="center-btn">
-          <button type="submit" className="next-lesson-btn"><span>Next Lesson</span></button>
-        </div>
+				<NextButton text="Next Lesson" />
       </form>
     </div>
   )

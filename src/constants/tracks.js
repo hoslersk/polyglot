@@ -52,6 +52,24 @@ const TRACKS = [
 				link: '/lesson-3',
 			},
 		],
+	},
+	{
+		name: '한국어 (Korean)',
+		link: '/tracks/korean',
+		lessons: [
+			{
+				name: 'Lesson 1',
+				link: '/lesson-1',
+			},
+			{
+				name: 'Lesson 2',
+				link: '/lesson-2',
+			},
+			{
+				name: 'Lesson 3',
+				link: '/lesson-3',
+			},
+		],
 	}
 ]
 
