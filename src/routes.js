@@ -3,7 +3,7 @@ import { Route } from 'react-router';
 
 import App from './App';
 import Tracks from './pages/Tracks'
-import JapaneseTrack from './components/JapaneseTrack'
+import Track from './components/Track'
 import LessonLink from './components/LessonLink'
 import Lesson from './components/lesson'
 import SignUp from './pages/SignUp'
